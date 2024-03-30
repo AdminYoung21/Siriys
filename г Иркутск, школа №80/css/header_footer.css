@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: #D3D3D3;
+    width: 100%;
+}
+
+.container{
+    max-width: 2000px;
+    margin: 0 auto; 
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .container {
+    padding: 40px 20px;
+}
+
+header .container .menu a {
+    font-size: 0.875em;
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+header .container .menu a:hover,
+header .container .menu a.active{
+    color: #808080;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #808080;
+}
+
+header form div{
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid #808080;
+    border-radius: 50px
+}
+
+header form div input[type="text"] {
+    border: none;
+    margin-right: 1;
+}
+
+header form div input[type="submit"]{
+    background: url(../images/poisk.png) no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+footer{
+    background-color: #D3D3D3;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer.container{
+    align-items: flex-start;
+}
+
+footer .left{
+    align-items: flex-start;
+}
+
+footer .left figure figcaption {
+    color: black;
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 180px;
+}
+
+footer .left nav{ 
+    margin-left: 100px;
+}
+
+footer .left nav a {
+    display: block;
+    font-size: 0.875em;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer .left nav a:hover, footer .left nav a.active {
+    color: #808080;
+}
+
+footer .right form div{
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid black;
+}
+
+footer .right form input[type="text"]{
+    padding: 5px 0;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+footer .right form input[type="submit"] {
+    width: 20px;
+    height: 20px;
+    background: url(../images/poisk.png) no-repeat;
+    background-size: cover;
+    border: none;
+}
